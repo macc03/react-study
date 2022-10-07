@@ -1,0 +1,30 @@
+:root {
+  font-size: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  outline: none;
+}
+button {cursor: pointer;}
+h2 {text-align: center;margin: 1rem;}
+.todo_item {
+  display: flex;
+  margin: 1em;
+  font-size: 1.2rem;
+}
+.todo_item button {
+  float: right;
+  margin-right: 10px;
+}
